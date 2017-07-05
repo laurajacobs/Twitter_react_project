@@ -3,13 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "axios": "^0.16.2",
+    "prop-types": "^15.5.10",
     "react-scripts": "0.8.5"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.1",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "underscore": "^1.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
