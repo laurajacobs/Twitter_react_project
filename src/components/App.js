@@ -15,7 +15,9 @@ class App extends React.Component {
           <div className='component-Dashboard container'>
             <div className='dashboard-Left col-md-3'>
               <ProfileCard/>
-              <Trends/>
+              <Trends
+              apiUrl={this.props.apiUrl}
+              />
             </div>
             <div className='dashboard-Center col-md-6'>
               <TweetForm/>
